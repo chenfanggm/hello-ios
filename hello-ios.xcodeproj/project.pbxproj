@@ -10,8 +10,9 @@
 		7477B1A121AA450B00D0EFE1 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7477B1A021AA450B00D0EFE1 /* Question.swift */; };
 		7477B1AB21AA657D00D0EFE1 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7477B1A921AA657D00D0EFE1 /* ProgressHUD.bundle */; };
 		7477B1AC21AA657D00D0EFE1 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7477B1AA21AA657D00D0EFE1 /* ProgressHUD.m */; };
+		7477B1B021AA9DF700D0EFE1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7477B1AF21AA9DF700D0EFE1 /* Default-568h@2x.png */; };
 		74F02C4B21A0007900C0442C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F02C4A21A0007900C0442C /* AppDelegate.swift */; };
-		74F02C4D21A0007900C0442C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F02C4C21A0007900C0442C /* ViewController.swift */; };
+		74F02C4D21A0007900C0442C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F02C4C21A0007900C0442C /* MainViewController.swift */; };
 		74F02C5021A0007900C0442C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F02C4E21A0007900C0442C /* Main.storyboard */; };
 		74F02C5221A0007B00C0442C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74F02C5121A0007B00C0442C /* Images.xcassets */; };
 		74F02C5521A0007B00C0442C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F02C5321A0007B00C0442C /* LaunchScreen.storyboard */; };
@@ -25,9 +26,10 @@
 		7477B1A921AA657D00D0EFE1 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
 		7477B1AA21AA657D00D0EFE1 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
 		7477B1AE21AA65EC00D0EFE1 /* hello-ios-bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hello-ios-bridging-header.h"; sourceTree = "<group>"; };
+		7477B1AF21AA9DF700D0EFE1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		74F02C4721A0007900C0442C /* hello-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74F02C4A21A0007900C0442C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		74F02C4C21A0007900C0442C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74F02C4C21A0007900C0442C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		74F02C4F21A0007900C0442C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74F02C5121A0007B00C0442C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		74F02C5421A0007B00C0442C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				74F02C4A21A0007900C0442C /* AppDelegate.swift */,
-				74F02C4C21A0007900C0442C /* ViewController.swift */,
+				74F02C4C21A0007900C0442C /* MainViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -107,6 +109,7 @@
 		74F02C3E21A0007900C0442C = {
 			isa = PBXGroup;
 			children = (
+				7477B1AF21AA9DF700D0EFE1 /* Default-568h@2x.png */,
 				74F02C4921A0007900C0442C /* hello-ios */,
 				74F02C4821A0007900C0442C /* Products */,
 				2B5B2F991584C882FEB3D1AA /* Pods */,
@@ -205,6 +208,7 @@
 				7477B1AB21AA657D00D0EFE1 /* ProgressHUD.bundle in Resources */,
 				74F02C5521A0007B00C0442C /* LaunchScreen.storyboard in Resources */,
 				74F02C5221A0007B00C0442C /* Images.xcassets in Resources */,
+				7477B1B021AA9DF700D0EFE1 /* Default-568h@2x.png in Resources */,
 				74F02C5021A0007900C0442C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7477B1A121AA450B00D0EFE1 /* Question.swift in Sources */,
-				74F02C4D21A0007900C0442C /* ViewController.swift in Sources */,
+				74F02C4D21A0007900C0442C /* MainViewController.swift in Sources */,
 				7477B1AC21AA657D00D0EFE1 /* ProgressHUD.m in Sources */,
 				74F02C4B21A0007900C0442C /* AppDelegate.swift in Sources */,
 			);

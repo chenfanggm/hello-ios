@@ -25,10 +25,10 @@
             </objects>
             <point key="canvasLocation" x="1036" y="33"/>
         </scene>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="hello_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="hello_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -123,8 +123,8 @@
                         <viewLayoutGuide key="safeArea" id="xHR-4f-OMl"/>
                     </view>
                     <connections>
-                        <outlet property="diceImageView1" destination="sfa-Ra-dGo" id="W3g-9v-eiR"/>
-                        <outlet property="diceImageView2" destination="0vY-6B-3dd" id="d8b-of-tuS"/>
+                        <outlet property="diceImageView1" destination="0vY-6B-3dd" id="3kt-3h-nRT"/>
+                        <outlet property="diceImageView2" destination="sfa-Ra-dGo" id="L2P-zU-ky0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
