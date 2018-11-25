@@ -11,6 +11,7 @@
 		7477B1AB21AA657D00D0EFE1 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7477B1A921AA657D00D0EFE1 /* ProgressHUD.bundle */; };
 		7477B1AC21AA657D00D0EFE1 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7477B1AA21AA657D00D0EFE1 /* ProgressHUD.m */; };
 		7477B1B021AA9DF700D0EFE1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7477B1AF21AA9DF700D0EFE1 /* Default-568h@2x.png */; };
+		7477B1B221AAB08100D0EFE1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7477B1B121AAB08100D0EFE1 /* SecondViewController.swift */; };
 		74F02C4B21A0007900C0442C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F02C4A21A0007900C0442C /* AppDelegate.swift */; };
 		74F02C4D21A0007900C0442C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F02C4C21A0007900C0442C /* MainViewController.swift */; };
 		74F02C5021A0007900C0442C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F02C4E21A0007900C0442C /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		7477B1AA21AA657D00D0EFE1 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
 		7477B1AE21AA65EC00D0EFE1 /* hello-ios-bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hello-ios-bridging-header.h"; sourceTree = "<group>"; };
 		7477B1AF21AA9DF700D0EFE1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7477B1B121AAB08100D0EFE1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		74F02C4721A0007900C0442C /* hello-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74F02C4A21A0007900C0442C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74F02C4C21A0007900C0442C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			children = (
 				74F02C4A21A0007900C0442C /* AppDelegate.swift */,
 				74F02C4C21A0007900C0442C /* MainViewController.swift */,
+				7477B1B121AAB08100D0EFE1 /* SecondViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				7477B1A121AA450B00D0EFE1 /* Question.swift in Sources */,
 				74F02C4D21A0007900C0442C /* MainViewController.swift in Sources */,
 				7477B1AC21AA657D00D0EFE1 /* ProgressHUD.m in Sources */,
+				7477B1B221AAB08100D0EFE1 /* SecondViewController.swift in Sources */,
 				74F02C4B21A0007900C0442C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
