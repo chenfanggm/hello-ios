@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7477B1A121AA450B00D0EFE1 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7477B1A021AA450B00D0EFE1 /* Question.swift */; };
+		7477B1AB21AA657D00D0EFE1 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7477B1A921AA657D00D0EFE1 /* ProgressHUD.bundle */; };
+		7477B1AC21AA657D00D0EFE1 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7477B1AA21AA657D00D0EFE1 /* ProgressHUD.m */; };
 		74F02C4B21A0007900C0442C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F02C4A21A0007900C0442C /* AppDelegate.swift */; };
 		74F02C4D21A0007900C0442C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F02C4C21A0007900C0442C /* ViewController.swift */; };
 		74F02C5021A0007900C0442C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F02C4E21A0007900C0442C /* Main.storyboard */; };
-		74F02C5221A0007B00C0442C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74F02C5121A0007B00C0442C /* Assets.xcassets */; };
+		74F02C5221A0007B00C0442C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74F02C5121A0007B00C0442C /* Images.xcassets */; };
 		74F02C5521A0007B00C0442C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F02C5321A0007B00C0442C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7477B1A021AA450B00D0EFE1 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		7477B1A821AA657D00D0EFE1 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		7477B1A921AA657D00D0EFE1 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		7477B1AA21AA657D00D0EFE1 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		7477B1AE21AA65EC00D0EFE1 /* hello-ios-bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hello-ios-bridging-header.h"; sourceTree = "<group>"; };
 		74F02C4721A0007900C0442C /* hello-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74F02C4A21A0007900C0442C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74F02C4C21A0007900C0442C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		74F02C4F21A0007900C0442C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		74F02C5121A0007B00C0442C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74F02C5121A0007B00C0442C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		74F02C5421A0007B00C0442C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74F02C5621A0007B00C0442C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,6 +43,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7477B19C21AA445C00D0EFE1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74F02C4E21A0007900C0442C /* Main.storyboard */,
+				74F02C5121A0007B00C0442C /* Images.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7477B19D21AA447F00D0EFE1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7477B1A021AA450B00D0EFE1 /* Question.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7477B19E21AA448A00D0EFE1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				74F02C4A21A0007900C0442C /* AppDelegate.swift */,
+				74F02C4C21A0007900C0442C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7477B19F21AA449A00D0EFE1 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				7477B1AD21AA65B500D0EFE1 /* ProgressHUD */,
+				74F02C5621A0007B00C0442C /* Info.plist */,
+				74F02C5321A0007B00C0442C /* LaunchScreen.storyboard */,
+				7477B1AE21AA65EC00D0EFE1 /* hello-ios-bridging-header.h */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		7477B1AD21AA65B500D0EFE1 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				7477B1A921AA657D00D0EFE1 /* ProgressHUD.bundle */,
+				7477B1A821AA657D00D0EFE1 /* ProgressHUD.h */,
+				7477B1AA21AA657D00D0EFE1 /* ProgressHUD.m */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
 		74F02C3E21A0007900C0442C = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +109,10 @@
 		74F02C4921A0007900C0442C /* hello-ios */ = {
 			isa = PBXGroup;
 			children = (
-				74F02C4A21A0007900C0442C /* AppDelegate.swift */,
-				74F02C4C21A0007900C0442C /* ViewController.swift */,
-				74F02C4E21A0007900C0442C /* Main.storyboard */,
-				74F02C5121A0007B00C0442C /* Assets.xcassets */,
-				74F02C5321A0007B00C0442C /* LaunchScreen.storyboard */,
-				74F02C5621A0007B00C0442C /* Info.plist */,
+				7477B19F21AA449A00D0EFE1 /* Supporting */,
+				7477B19E21AA448A00D0EFE1 /* Controller */,
+				7477B19D21AA447F00D0EFE1 /* Model */,
+				7477B19C21AA445C00D0EFE1 /* View */,
 			);
 			path = "hello-ios";
 			sourceTree = "<group>";
@@ -96,6 +149,7 @@
 				TargetAttributes = {
 					74F02C4621A0007900C0442C = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -122,8 +176,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7477B1AB21AA657D00D0EFE1 /* ProgressHUD.bundle in Resources */,
 				74F02C5521A0007B00C0442C /* LaunchScreen.storyboard in Resources */,
-				74F02C5221A0007B00C0442C /* Assets.xcassets in Resources */,
+				74F02C5221A0007B00C0442C /* Images.xcassets in Resources */,
 				74F02C5021A0007900C0442C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +190,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7477B1A121AA450B00D0EFE1 /* Question.swift in Sources */,
 				74F02C4D21A0007900C0442C /* ViewController.swift in Sources */,
+				7477B1AC21AA657D00D0EFE1 /* ProgressHUD.m in Sources */,
 				74F02C4B21A0007900C0442C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,16 +339,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "hello-ios/Info.plist";
+				DEVELOPMENT_TEAM = 5KU5L66752;
+				INFOPLIST_FILE = "$(SRCROOT)/hello-ios/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aquarae.hello-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hello-ios/Supporting/hello-ios-bridging-header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,16 +360,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "hello-ios/Info.plist";
+				DEVELOPMENT_TEAM = 5KU5L66752;
+				INFOPLIST_FILE = "$(SRCROOT)/hello-ios/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aquarae.hello-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hello-ios/Supporting/hello-ios-bridging-header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
